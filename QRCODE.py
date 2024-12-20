@@ -19,7 +19,7 @@ def create():
         qr_code = pyqrcode.create(entry.get())
         
         # Save the QR code image
-        qr_code.png(input_path, scale=7)
+        qr_code.png(input_path, scale=5)
         
         # Open the generated image for displaying
         global get_image
